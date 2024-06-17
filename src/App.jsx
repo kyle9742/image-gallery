@@ -1,11 +1,15 @@
+import Gallery from "./components/Gallery";
+import SearchForm from "./components/SearchForm";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
-
   return (
     <>
-      앱시작    
+      <ThemeToggle />
+      <SearchForm />
+      <Gallery />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
